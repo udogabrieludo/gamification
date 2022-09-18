@@ -1,0 +1,210 @@
+.prize-card {
+    /* margin-right: 10px; */
+    width: 22%;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.86);
+/* box-shadow: 0px 0px 53px rgba(12, 2, 2, 0.09); */
+
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+border-radius: 20px;
+}
+@media (max-width: 991px){
+    .prize-card {
+        /* margin: 0; */
+        width: 100%;
+    }
+}
+.pbody {
+    box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    transition: all .3s ease-in-out;
+    width: 22%;
+}
+@media (max-width: 991px) {
+    .pbody {
+        width: 44%;        
+    }
+}
+@media (max-width: 767px) {
+    .pbody {
+        width: 44%;
+    }
+}
+@media (max-width: 479px) {
+    .pbody {
+        width: 100%;
+    }
+}
+.mypointbtn {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* padding: 5px 10px; */
+    cursor: pointer;
+    color: var(--humber-primary);
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: .8rem;
+}
+.mypointbtn:hover {
+    background-color:  var(--humber-button-color);
+    color: #FFF;
+    border: 2px solid var(--humber-primary);
+}
+
+.myrebtn {
+   
+    height: 40px;
+    /* font-size: 60px; */
+    background: var(--humber-button-color);
+    /* border: 2px solid transparent; */
+    outline: none;
+    /* padding: 5px 10px; */
+    cursor: pointer;
+    color: var(--humber-light);
+    font-weight: bold;
+    text-transform: capitalize;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-size: .8rem;
+    border:none
+
+}
+.myrebtn:hover {
+    background-color: var(--humber-dark);
+    color: var(--humber-primary);
+    border: 2px solid var(--humber-primary);
+}
+.btn {
+    /* background-color: #2B9FDD; */
+    background: var(--humber-button-color);
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: var(--humber-light);
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.rdbtn {
+    /* background-color: #2B9FDD; */
+    background-color: #007c02;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.rbtn {
+    background: var(--humber-button-color);
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    cursor: pointer;
+    color:var(--humber-light);
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 15px;
+    /* min-width: 150px; */
+}
+.rbtn1 {
+    background-color:transparent;
+    border: 1px solid var(--humber-primary);
+    outline: none;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: var(--humber-primary);
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 15px;
+    /* min-width: 150px; */
+}
+.theimg {
+    
+    width: 80%;
+    height: 250px;
+    object-fit: contain;
+    margin: 0 auto 20px auto;
+    display: flex;
+}
+
+@media (min-width: 700px) {
+    .theimg{
+    width: 100%;
+    height: 137px;
+    object-fit: contain;
+    
+    display: flex;
+    }
+    .btn-roller {
+        display: flex;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        /* width: 100%!important;
+        margin: 0 auto; */
+    }
+    .rbtn1, .rbtn {
+       
+        min-width: 176px;
+    }
+   
+    
+}
+.wayu {
+    text-align: center; 
+    padding: 20px 80px;
+}
+.btn-roller {
+    display: flex; padding-bottom: 20px; justify-content: space-around; 
+        gap: 20px;
+}
+.pointer-prize {
+    display: flex; color: #123873; align-items: center; justify-content: center;
+}
+.pointer-cost {
+    font-weight: bold; font-size: 1rem; color:var(--humber-golden)
+}
+.pointer-points {
+    color: var(--humber-primary); font-size: 1rem; font-weight: bold
+}
+@media (max-width: 991px){
+    /* .rbtn {
+
+    }
+    .rbtn1 {
+
+    } */
+    .btn-roller {
+        width: 100%;
+    }
+    .wayu {
+        padding: 20px 20px;
+    }
+    .theimg {
+        width: 100%;
+    }
+    .pointer-cost {
+        font-size: 25px;
+    }
+    .pointer-points {
+        font-size: 28px;
+    }
+}
+@media (max-width: 420px) {
+    .btn-roller {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}

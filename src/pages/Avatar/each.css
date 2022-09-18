@@ -1,0 +1,84 @@
+.select-avatar {
+  background: #ffffff;
+  padding: 25px;
+  min-width: 22%;
+  box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.avatar-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.avatar-id {
+    font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .select-avatar {
+    width: 45%;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .select-avatar {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.select-avatar:hover {
+  background-color: #123873;
+  color: #ffffff;
+  cursor: pointer;
+}
+.select-avatar:hover .select-avatar-head {
+  color: #ffffff;
+}
+.select-avatar-head {
+  color: #000000;
+}
+.select-avatar-head:nth-child(2) {
+  font-size: 12px;
+}
+.ul-wrapper ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+}
+.ul-wrapper ul li {
+  list-style: none;
+  padding: 3px;
+}
+.select-avatar:hover .select-points {
+  /* background: #123873; */
+  color: #ffffff;
+}
+.select-points {
+  font-size: 39px;
+  color: black;
+  font-weight: bold;
+}
+.select-points > span {
+  font-size: 14px;
+  padding-left: 2px;
+}
+.check-mark {
+  display: none;
+}
+.select-avatar:hover .check-mark {
+  display: block;
+}
+.pts-check {
+  display: flex;
+  justify-content: space-between;
+}
+.avart-head {
+  display: flex;
+  /* background-color: yellow; */
+  justify-content: space-between;
+}
+
+

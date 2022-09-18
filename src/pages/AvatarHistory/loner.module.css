@@ -1,0 +1,11 @@
+.loner {
+    background: #E6F2E8;
+    position: relative; 
+    margin: 12px 0; 
+    border-radius: 15px;  
+    /* max-width: 125px;  */
+    padding: 3px 10px;
+    /* display: inline; */
+    width: fit-content;
+    padding-right: 40px;
+}

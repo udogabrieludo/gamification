@@ -1,0 +1,20 @@
+
+.skeleton__container {
+        display: grid;
+        width: 100%;
+}
+  
+
+.skeleton__box {
+
+    flex-grow: 1;
+    height: 300px;
+    margin-right: 1rem;
+}
+
+
+.pageFiller {
+  padding: 3rem;
+  min-height: 200px;
+  text-align: center;
+}

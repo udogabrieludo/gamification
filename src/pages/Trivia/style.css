@@ -1,0 +1,79 @@
+.triviqbody {
+    background: #FFFFFF;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.options ul {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    width: 70%;
+    margin: 0 auto;
+    /* list-style-type: disc; */
+    counter-reset: 1;
+}
+.options ul li {
+    padding: 15px;
+    cursor: pointer;
+    /* background: red; */
+    font-size: 16px;
+}
+.options ul li:hover {
+    background-color: #48a8e9;
+    border-radius: 20px;
+    color: #fff;
+}
+.options ul li::before {
+
+    /* content: counter(li); 
+    color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em; */
+
+
+  content: counter(li); color: red;
+    display: inline-block; width: 1em; margin-left: -1.5em;
+    margin-right: 0.5em; text-align: right; direction: rtl
+}
+.oppi {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-left: 20px;
+        justify-content: space-between;
+        width: 550px;
+}
+.tterror {
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+}
+.ttearner {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+.tttitle {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 15px;
+}
+.ttalert {
+    color: red;
+    border-radius: 0 0 10px 10px;
+    height: 100px;
+    font-size: 14px;
+    margin: 40px 0;
+}
+.ttquestion {
+    font-size: 26px;
+    max-width: 400px;
+    margin: 20px auto;
+    line-height: 1.5em;
+}

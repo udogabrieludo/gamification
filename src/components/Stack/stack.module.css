@@ -1,0 +1,145 @@
+.stackwrapper {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 50px;
+  width: 100%;
+  row-gap: 20px;
+}
+@media (max-width: 991px) {
+  .stackwrapper {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.stackcard {
+  background: #ffffff;
+  box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 15px;
+}
+.mypoints {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .mypoints {
+    width: 100%;
+  }
+}
+
+.mypointscircle {
+  border-right-color: #f5dd64;
+  border-top-color: #2755b3;
+  border-bottom-color: #f5dd64;
+  border-left-color: #2755b3;
+  border-width: 8px;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 20px;
+  /* border: 5px solid green; */
+}
+.pointstitle {
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  padding: 0 0 10px 0;
+}
+
+.myposition {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.wallet {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+@media (max-width: 1000px) {
+  .myposition {
+    width: 45%;
+  }
+  .wallet {
+    width: 45%;
+  }
+}
+@media (max-width: 600px) {
+  .myposition {
+    width: 48%;
+  }
+  .wallet {
+    width: 48%;
+  }
+}
+.positionnumber {
+  font-size: 50px;
+  color: #123873;
+  font-weight: bold;
+}
+.positionnumber img {
+  margin: -20px 0 0 10px;
+}
+.suffix {
+  font-size: 16px;
+}
+.viewleaderboard {
+  color: #000;
+  font-weight: 500;
+}
+.wallettop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.wallettitle {
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+}
+.walletbalance {
+  color: #123873;
+  font-size: 32px;
+  font-weight: bold;
+}
+.topup {
+  cursor: pointer;
+}
+
+.pointswrap {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .pointswrap {
+    width: 100%;
+  }
+}
+.positionwrapper {
+  width: 20%;
+  height: auto;
+}
+@media (max-width: 991px) {
+    .positionwrapper {
+        width: 45%;
+    }
+}
+.walletwrapper {
+  width: 20%;
+  height: auto;
+}
+@media (max-width:1000px){
+  .walletwrapper{
+    flex:1;
+  }
+}
+@media (max-width: 791px) {
+    .walletwrapper {
+        width: 100%;
+    }
+}

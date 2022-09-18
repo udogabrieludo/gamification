@@ -1,0 +1,210 @@
+.fleets {
+    background: rgba(255, 255, 255, 0.86);
+box-shadow: 0px 0px 53px rgba(0, 0, 0, 0.09);
+border-radius: 10px;
+padding: 20px;
+}
+.fleetwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.fleetwrapper img {
+    border-radius: 50%;
+    width: 80%;
+    object-fit: contain;
+}
+.myavatar {
+    border: 5px solid blue;
+}
+.select {
+    display: none;
+}
+@media (max-width: 991px){
+    .select {
+        display: block;
+        padding: 10px 0;
+    }
+    .headerImage{
+        text-align:center
+    }
+}
+figure {
+    width: 20%;
+    height: 90px;
+    margin-right: 20px;
+    /* background-color: blue; */
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #2B9FDD;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 18px;
+    /* height: 40px; */
+}
+.eachavatar {
+    background: #FFFFFF;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+display: flex
+}
+@media (max-width: 991px) {
+    .eachavatar {
+        flex-direction: column;
+        /* background-color: red; */
+        /* width: 100%; */
+        row-gap: 30px;
+    }
+}
+.myavatars {
+    width: 85%; display: flex; gap: 2%;
+}
+@media (max-width: 991px) {
+    .myavatars {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 100%;
+    }
+}
+.card {
+    background-color: #123873; 
+    width: 33%; 
+    border-radius: 20px; 
+    padding: 10px;
+}
+@media (max-width: 991px) {
+    .card {
+        width: 100%;
+    }
+}
+.card img {
+    width: 50px;
+}
+.emptycard {
+    background-color: lightgray;
+    width: 33%; 
+    border-radius: 20px; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptycard img {
+    display: none;
+}
+@media (max-width: 991px) {
+    .emptycard {
+        width: 100%;
+    }
+    .emptycard img {
+        display: block;
+    }
+}
+.cardtop {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@media (max-width: 991px) {
+    .cardtop {
+    justify-content: space-between;
+        align-items: center;
+    }
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0 10px;
+    /* margin-left: 10px; */
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+@media (max-width: 991px) {
+    .name {
+        font-size: 18px;
+    }
+}
+.contestant {
+    font-size: 12px;
+}
+@media (max-width: 991px) {
+    .contestant {
+        font-size: 14px;
+    }
+}
+.card ul {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 80%;
+}
+.card ul li {
+    list-style-type: none;
+    color: white;
+    padding: 3px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.plus {
+    cursor: pointer;
+}
+.sectone {
+    width: 60%;
+}
+@media (max-width: 991px) {
+    .sectone {
+        width: 100%;
+    }
+}
+.secttwo {
+    width: 38%; 
+    display: flex; 
+    flex-direction: column
+}
+@media (max-width: 991px) {
+    .secttwo {
+        display: none;
+    }
+}
+.picks {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 60px;
+    width: 100%;
+}
+.picksub {
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+}
+@media (max-width: 991px) {
+    .picksub {
+        width: 100%;
+    }
+}
+
+.avmodwrap {
+    display: none;
+}
+@media (max-width: 991px) {
+    .avmodwrap {
+        display: block;
+    }
+}

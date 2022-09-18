@@ -1,0 +1,44 @@
+.stackcard {
+    background: var(--humber-black);
+    border: 1px solid var(--humber-primary);
+    box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* .mypoints {
+      display: flex;
+  justify-content: space-between;
+  width: 50%;
+  }
+  @media (max-width: 991px) {
+      .mypoints {
+          width: 100%;
+      }
+  } */
+  .mypointscircle {
+    border-right-color: #f5dd64;
+    border-top-color: #2755b3;
+    border-bottom-color: #f5dd64;
+    border-left-color: #2755b3;
+    border-width: 8px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* border: 5px solid green; */
+  }
+  .pointstitle {
+    font-weight: 600;
+    color: var(--humber-light);
+    font-size: 16px;
+}
+
+.small{
+  color:var(--humber-primary)
+}

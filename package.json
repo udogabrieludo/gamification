@@ -1,0 +1,80 @@
+{
+  "name": "naija-idol",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "-": "^0.0.1",
+    "@feuer/react-tabs": "^0.1.8",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "all": "^0.0.0",
+    "antd": "^4.16.9",
+    "axios": "^0.21.1",
+    "bootstrap": "5.1.0",
+    "fbemitter": "^3.0.0",
+    "feather-icons-react": "^0.4.3",
+    "formik": "^2.2.9",
+    "fuse.js": "^6.4.6",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-bootstrap-sidebar": "^0.0.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-burger-menu": "^3.0.6",
+    "react-circular-progressbar": "2.0.1",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-idle-timer": "^4.6.4",
+    "react-multi-carousel": "^2.6.5",
+    "react-paginate": "^7.1.5",
+    "react-pagination": "^1.0.0",
+    "react-paystack": "^3.0.4",
+    "react-query": "^3.19.4",
+    "react-query-devtools": "^2.6.3",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-svg": "^14.0.16",
+    "react-text-carousel": "^0.1.1",
+    "react-tooltip": "^4.2.21",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.35.2",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "since 2010",
+      "Android >= 5.0",
+      "Chrome >= 60",
+      "iOS >= 9",
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "since 2010",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

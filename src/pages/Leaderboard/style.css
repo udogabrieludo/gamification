@@ -1,0 +1,246 @@
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 0.9em;
+    /* min-width: 400px; */
+    width: 100%;
+    /* border-radius: 5px 5px 0 0; */
+    overflow: hidden;
+    background: #ffffff;
+    background: var(--humber-light)!important;
+    box-shadow: 0px 0px 85px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+  
+}
+
+.sec-two{
+  /* border:2px solid var(--humber-primary); */
+  border-radius:10px;
+  box-shadow: var(--box-shadow);
+}
+
+td {
+  border: none;
+}
+  
+  .content-table thead tr {
+    /* background-color: #009879; */
+    color: var(--humber-primary);
+    text-align: left;
+    font-weight: bold;
+    border: none;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+    
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    min-width: 150px;
+  }
+  
+  .content-table tbody tr {
+    /* border-bottom: 1px solid #dddddd; */
+  }
+  
+  /* .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  } */
+  
+  /* .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  } */
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  .leaderboard-sub-wrapper {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    gap: 60px;
+  }
+  @media (max-width: 1200px) {
+
+    .leaderboard-sub-wrapper {
+      flex-direction: column-reverse;
+    }
+  }
+  .cup-holder {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  
+  .game-card-wrap {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .game-card-wrap h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+  
+  }
+  .gamecard {
+    background: var(--humber-light);
+box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 20px 20px;
+width: 30%;
+text-align: center;
+/* border:1px solid var(--humber-primary) */
+}
+@media (max-width: 991px) {
+  
+    .gamecard {
+      width: 100%;
+      margin-bottom: 20px;
+      padding-bottom: 46px;
+      flex-direction: column;
+      /* margin-bottom: 20px; */
+  
+  }
+}
+  .gamecard .lunk {
+    font-size: 19px;
+    font-weight: bold;
+    /* padding-top: 0px; */
+    color:var(--humber-primary);
+  }
+  .gamecard img {
+    width: 100px;
+    max-height: 53px;
+  }
+  .wrap-games {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+  }
+  @media (max-width: 991px){
+    .wrap-games {
+      flex-direction: column;
+    }
+
+  }
+.senter {
+  text-align: center;
+}
+.leader-bonus {
+  margin: 1rem 0 0 0;
+  border-radius: 20px;
+}
+.leader-bonus-img {
+  width: 100%;
+  height:300px; 
+  object-fit: contain;
+}
+@media (max-width: 600px){
+  .leader-bonus {
+    margin: 10px 0;
+  }
+
+  .leader-bonus-img {
+    width: 100%;
+    height:auto; 
+    object-fit: contain;
+  }
+}
+.carocolumnone {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  background-color: #364d79;
+  padding: 25px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.columnone-text {
+  font-weight: bold; font-size: 20px; padding: 10px 0
+}
+.amnt {
+  color: #85C26D; font-size: 24px
+}
+@media (max-width: 600px) {
+  .columnone-text {
+    font-size: 13px;
+  }
+  .amnt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .columnone-text {
+    font-size: 11px;
+  }
+  .amnt {
+    font-size: 14px;
+  }
+}
+.redeemers {
+  background: #FEFEFE;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.09);
+border-radius: 10px;
+width: 100%;
+height: 200px;
+padding: 0 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.plbtn {
+  
+  background: var(--humber-button-color);
+  border-radius: 20px!important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--humber-light);
+  opacity: 0.8;
+  cursor: not-allowed;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+  display: block;
+  margin: 20px auto;
+    width: 120px;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    height: 30px;
+    color:var(--humber-light)
+
+
+}
+
+.avatarCircle {
+  width: 65px;
+  height: 65px;
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  height: 85%;
+  background-color: var(--humber-primary);
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+.init {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: var(--humber-black);
+}

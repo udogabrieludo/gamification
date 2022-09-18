@@ -1,0 +1,30 @@
+.picks {
+    width: 300px;
+    padding: 20px;
+    background: #FDFDFD;
+box-shadow: 0px 4px 78px 10px rgba(0, 0, 0, 0.23);
+border-radius: 10px;
+text-align: center;
+padding: 20px 30px;
+color: #1B1E1D;
+margin: 0 0 20px 0;
+}
+.avatarpicks {
+    background-image: url("../../assets/svg/subtract.png") no-repeat fixed center;
+    /* background-image: ''../../assets/svg/avatarfade.svg) no-repeat; */
+}
+.guesspicks {
+    background-image: url(../../assets/svg/guesspick.svg);
+}
+.btn {
+    background-color: #2B9FDD;
+    border: none;
+    outline: none;
+    padding: 10px 35px;
+    cursor: pointer;
+    color: #1B1E1D;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 12px;
+}

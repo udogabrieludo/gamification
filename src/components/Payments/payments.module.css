@@ -1,0 +1,146 @@
+.paymentswrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    text-align: center;
+    padding: 3px 117px;
+    color: var(--humber-primary);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+@media (max-width: 768px) {
+    .title {
+        padding: 0px 20px;
+    }
+}
+#paystack button {
+    color: red;
+}
+.depositamount {
+    color:#8b8a8a;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0 20px 0;
+    text-align: start;
+}
+.formwrapper {
+    display: flex;
+}
+.inputblock {
+    position: relative;
+    width: 50%;
+}
+.inputblock input {
+    border: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #09090966;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px 80px 10px 20px;
+    background: transparent;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input_text{
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.inputblock div {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.formwrapper button {
+    width: 25%;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    margin-left: 30px;
+    background: #2B9FDD;
+border-radius: 30px;
+opacity: 1;
+cursor: pointer;
+}
+.form button{
+    width: 25%;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+   width:100%;
+    background: var(--humber-button-color);
+border-radius: 30px;
+opacity: 1;
+cursor: pointer;
+height: 52px;
+font-weight: 500;
+font-size: 0.94rem;
+    line-height: 24px;
+    max-height: 45px;
+    color: var(--humber-light);
+    
+    /* max-width: 200px; */
+
+}
+@media (max-width:600px){
+    .form button {
+        font-size:0.9rem
+    }
+}
+/* @media(max-width: 991px){
+    .desc{
+        display:none;
+    }
+} */
+/* this */
+
+@media (min-width:800px){
+    .form button {
+        max-width: 190px;
+    }
+}
+/* jjdjdjd */
+.description {
+    margin: 40px 0;
+    font-size: 15px;
+    color: #636363;
+    text-align: start;
+}
+
+
+.input{
+    border: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--humber-primary);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px 80px 10px 20px;
+    background: transparent;
+    height:40px;
+    margin-bottom: 5px;
+    /* color:var(--humber-light); */
+    /* width: 150px;
+    height: 40px; */
+    margin-bottom: 1rem;
+}

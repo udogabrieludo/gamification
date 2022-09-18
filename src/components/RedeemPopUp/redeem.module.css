@@ -1,0 +1,40 @@
+.highlight {
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.coin {
+    color: #2B9FDD;
+}
+.btn {
+    background-color: #2B9FDD;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.nobtn {
+    background: #A7A7A7;
+    margin-left: 20px;
+}
+.reward {
+    position: relative;
+}
+.prize {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.prize span {
+    color: #2B9FDD;
+    font-size: 12px;
+}

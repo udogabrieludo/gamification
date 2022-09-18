@@ -1,0 +1,44 @@
+.sidebarandcontent {
+    display: flex;
+    height: 90vh;
+}
+.bodyContainer {
+    /* background-image: url('../../assets/gulder.png'); */
+    height: auto;
+    width: 90%;
+    margin-left: 10%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: var(--humber-black);
+    background-attachment: fixed;
+    background:#e5e5e51f;
+}
+
+
+@media (max-width:1024px){
+    .bodyContainer {
+        /* background-image: url('../../assets/gulder.png'); */
+        width: 85%; 
+        margin-left: 15%; 
+        
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        background-color: var(--humber-black);
+        background-repeat: no-repeat;
+        background:#e5e5e51f;
+
+    }
+}
+@media (max-width: 768px) {
+    .bodyContainer {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+.container {
+    /* background-image: linear-gradient(90deg, #123a74 8.8%, #4ca9e3 100%); */
+    background: linear-gradient(90deg, #010030 21.67%, #29268C 57.01%, #010030 84.45%);
+}

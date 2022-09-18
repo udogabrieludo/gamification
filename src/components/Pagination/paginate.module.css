@@ -1,0 +1,19 @@
+.page_link{
+   
+        position: relative;
+        display: block;
+        color: #023066;
+        text-decoration: none;
+        background-color: #fff;
+        border-radius: 11px;
+        /* border: 1px solid #dee2e6; */
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #023066;
+    border-color: #023066;
+}

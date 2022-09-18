@@ -1,0 +1,84 @@
+.avatar-header {
+  display: flex;
+  /* padding: 40px 40px 0 50px; */
+  margin: 40px 0 0 50px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: bottom;
+  width: 90%;
+}
+.avatar-header-col {
+  display: flex;
+  flex-direction: column;
+}
+.avatar-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+.avatar-sub-head-txt {
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.see-prizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.see-prize-arr {
+  margin: 2px 0 0 7px;
+  width: 9px;
+  height: 9px;
+}
+.avatar-list-wrapper {
+  width: 90%;
+  margin: 30px 0 0 50px;
+  display: flex;
+  row-gap: 30px;
+  column-gap: 37px;
+  flex-flow: wrap;
+}
+@media (max-width: 480px) {
+  /* .avatar-list-wrapper {
+        margin: 0 10px 0 10px;
+    } */
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  /* padding: 0 10px; */
+  background: blue;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.my-prize {
+  color: #0a7815;
+  font-size: 14px;
+  font-weight: bold;
+}

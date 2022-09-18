@@ -1,0 +1,41 @@
+.profile {
+    width: 90%;
+    margin: 30px auto;
+    -webkit-box-shadow: 0 0 85px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 0 85px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 85px rgb(0 0 0 / 5%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    z-index: -5;
+    /* border: 1px solid var(--humber-primary); */
+}
+
+
+.table{
+
+    border-radius: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #B9B9B9;
+}
+
+.color_withdrawal{
+    color: #F20000!important;
+    font-weight: 700;
+}
+.color_deposite{
+    color:#0A7815!important;
+    font-weight: 700;
+}
+
+@media (max-width:700px){
+    .transaction_tables{
+        font-size: 0.8rem;
+    }
+    .td_transaction{
+        font-size: 0.8rem;
+    }
+}

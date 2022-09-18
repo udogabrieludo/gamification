@@ -1,0 +1,33 @@
+.button {
+    border-radius: 30px;
+    padding: 8px 15px;
+    outline: none;
+    min-width: 150px;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.outline {
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+}
+.outline:hover {
+    background-color: #ffffff;
+    /* border: none; */
+    color: #000;
+}
+.noOutline {
+    background-color: #ffffff;
+    border: none;
+}
+.noOutline:hover {
+    color: red
+}
+.btnIcon {
+    margin: 0 0 0 15px;
+    height: 9px;
+}

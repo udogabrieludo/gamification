@@ -1,0 +1,84 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.top {
+    text-align: center;
+}
+.top p {
+    display: none;
+}
+@media (max-width: 767px) {
+    .top p {
+        display: block;
+        color: blue;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+}
+.guessname {
+    font-size: 26px;
+    color: #09070A;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+.guessdesc {
+    color: #16407A;
+    font-size: 24px;
+    padding: 0 0 10px 0;
+}
+.categorywrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+@media (max-width: 767px) {
+    .categorywrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        max-height: 300px;
+        overflow: scroll;
+    }
+}
+.card {
+    display: flex;
+    min-width: 316px;
+    background: #F4F1F1;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding: 20px;
+gap: 20px;
+cursor: pointer;
+}
+.card:hover {
+    background: white;
+}
+.card .description {
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card .description .h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .card {
+        max-width: 80%;
+        min-width: 100%;
+    }
+}
+.counter {
+    color: red;
+    font-size: 22px;
+}
+.time {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}

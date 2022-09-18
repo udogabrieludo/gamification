@@ -1,0 +1,59 @@
+.myultabs {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.myultabs-li {
+    margin-right: 20px;
+    background-color: #F4F1F1;
+    border-radius: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px 30px;
+    font-weight: bold;
+}
+@media (max-width: 480px){
+    .myultabs-li {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+}
+.tabactive {
+    background: var(--humber-button-color);
+    color: var(--humber-light);
+}
+.deep {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    background: var(--humber-light);
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+display: flex;
+/* border: 1px solid var(--humber-primary) */
+}
+.ownee-wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 50px auto;
+}
+.ownee {
+    font-size: 25px; 
+    font-weight: bold;
+    color:var(--humber-primary)
+}
+@media (max-width: 991px) {
+    .ownee {
+        font-size: 18px;
+    }
+}
+@media (max-width: 680px){
+    .ownee-wrap {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

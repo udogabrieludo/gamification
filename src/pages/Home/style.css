@@ -1,0 +1,132 @@
+.home-stats {
+  width: 40%;
+}
+.gamerss {
+  background: #ffffff;
+  /* background: red; */
+  box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 40px;
+  padding: 20px;
+  height: max-content;
+  box-sizing: border-box;
+}
+.home-games-layout {
+  display: flex;
+  margin: 28px 0 28px 0;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.owned-avatars {
+  /* width: 100%; */
+  background: #ffffff;
+  box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 30px 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  .home-stats {
+    width: 100%;
+  }
+  .gamerss {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* .home-games-layout {
+    margin: 28px 0 28px 0;
+  } */
+  .owned-avatars {
+    margin: 0 auto 50px auto;
+    width: 92%;
+  }
+}
+
+.toppings-title {
+  display: flex;
+  justify-content: space-between;
+}
+.ava {
+  color: #123873; font-size: 24px; font-weight: bold
+}
+.toppings-view-avatar {
+  font-weight: 500;
+  color: #0a7815;
+  display: flex;
+  align-items: center;
+}
+.toppings-view-avatar .view-ava {
+  /* margin-left: 150px; */
+}
+.toppings-view-avatar img {
+  margin-left: 10px
+}
+@media (max-width: 420px) {
+  /* .toppings-title .ava {
+    color: #123873; font-size: 14px; font-weight: bold
+  }
+  .toppings-view-avatar .view-ava {
+    margin-left: 150px;
+    font-size: 8px;
+  } */
+}
+.pickedboost {
+  background-color: #1290df;
+}
+.each-boost {
+  box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 9%);
+    border-radius: 10px; 
+    /* background-color: #ffffff; */
+    width: 45%;
+    cursor: pointer;
+}
+.each-boost:hover {
+  background-color: #4CA9E3;
+}
+
+                       
+                       
+.myBoostBtn {
+  display: flex;
+  text-align: center;
+  background: linear-gradient(266.9deg, #0CC3F3 38.58%, #2B9FDD 85.02%);
+border-radius: 50px;
+border: none;
+color: #fff;
+padding: 10px 40px;
+font-weight: bold;
+text-transform: capitalize;
+margin: 20px auto;
+cursor: pointer;
+}
+
+.switch-card {
+  width: 45%;  background-color: #ffffff; box-sizing: border-box; 
+    word-wrap: wrap;
+    border-radius: 15px;
+  box-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 9%);
+}
+.switch-card-bg {
+  background-color: #1290df;
+}
+.switch-card:hover {
+  background-color: #1290df;
+  color: #fff;
+}
+.buying {
+  width: 45%;
+  height: 170px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05); 
+  background-color: white; 
+  padding: 20px;
+  cursor: pointer;
+}
+.buying:hover {
+  background-color: gray;
+}

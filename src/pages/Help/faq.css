@@ -1,0 +1,22 @@
+.faq-ul {
+    margin: 0;
+    /* color: #747474; */
+}
+.faq-ul li {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.site-collapse-custom-collapse{
+    /* background:var(--humber-black); */
+}
+
+.site-collapse-custom-collapse b {
+    /* color:var(--humber-light) */
+}
+
+.site-collapse-custom-panel p i {
+    /* color:var(--humber-light); */
+    opacity: .6;
+    
+}

@@ -1,0 +1,8 @@
+.coinright {
+    margin-right: 38px;
+}
+@media (max-width: 650px){
+    .coinright {
+        margin-right: 0;
+    }
+}

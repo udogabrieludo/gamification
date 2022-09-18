@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    color: #000;
+
+    background: var(--humber-dark);
+box-shadow: 0px 0px 53px rgba(0, 0, 0, 0.09);
+border-radius: 10px;
+
+}
+@media (max-width: 991px) {
+    .container {
+        width: 95%;
+    }
+}
+.prwrapper {
+    display: flex; justify-content: flex-start; gap: 3%; flex-wrap: wrap; row-gap: 30px;
+}
+@media (max-width: 991px){
+    .prwrapper {
+        flex-direction: column;
+    }
+}

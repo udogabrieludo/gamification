@@ -1,0 +1,98 @@
+.sidebar {
+  width: 10%;
+  height: 100vh;
+  position: fixed;
+  /* background: #123873; */
+  /* background: #11151B; */
+  /* background: #010030; */
+  background: #010030;
+  z-index:999
+}
+
+@media (max-width:1024px){
+  .sidebar {
+    width: 15%}
+}
+@media  (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+.navlink {
+  text-decoration: none;
+  /* background: red; */
+  padding: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+.navlink > div {
+  padding-top: 10px
+}
+.navlink:hover {
+  /* background: #4ea8e6; */
+  /* background: #6B6B6B; */
+  background: var(--humber-button-color);
+  color: #fff;
+}
+.newnavlink {
+  text-decoration: none;
+  /* background: red; */
+  padding: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.newnavlink > div {
+  padding-top: 10px
+}
+.newnavlink:hover {
+  /* background: #4ea8e6; */
+  /* background: #6B6B6B; */
+  background: var(--humber-button-color);
+  color: #fff;
+}
+.sideSubmenu {
+  width: 200px;
+  
+  border-radius: 0 10px 10px 0;
+  left: 100%;
+  top: 0;
+  background-color: #04074c;
+  position: absolute;
+  display: block;
+  
+    border: 1px solid var(--humber-primary);
+}
+.hideSubMenu {
+  display: none;
+}
+
+.hoverEffect:hover{
+  background-color: #11151B;
+  background: var(--humber-button-color);
+}
+
+.hide {
+  display: none;
+}
+
+.logoWrapper{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoImg {
+width: 80px;
+ object-fit: contain; 
+}

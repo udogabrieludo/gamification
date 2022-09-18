@@ -1,0 +1,121 @@
+.topwrapper {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: -30px;
+}
+.title {
+    color: var(--humber-primary);
+    font-size: 176%;
+}
+.description {
+    color: var(--humber-black);
+    font-size: 17px;
+    padding: 10px 0;
+    line-height: 1;
+}
+.catstory {
+    text-align: center;
+    background: var(--humber-dark);
+    opacity: 1;
+    width: 75%;
+    padding: 20px 100px 50px 100px;
+    margin: 0 auto 30px auto;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+
+
+}
+@media (max-width: 767px) {
+    .catstory {
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+.readme {
+ 
+    
+    padding: 30px 20px;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+.btn {
+    /* background-color: #2B9FDD; */
+    background: var(--humber-button-color);
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: var(--humber-dark);
+    border:1px solid var(--border-color-light);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+.image_cat{
+    image-rendering: pixelated;
+    width: 78px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (max-width:600px){
+    .image_cat{
+        image-rendering: pixelated;
+        width: 78px;
+        vertical-align: middle;
+        border-style: none;
+        margin-top: 1rem;
+    }
+}
+
+.trivia_timer{
+    height: 56px;
+    margin-top: 20px;
+    image-rendering: pixelated;
+}
+
+.tokenAdded{
+    text-align: center;
+    
+    margin-top: 0px;
+    margin-bottom: -15px;
+    
+  font-weight: 800;
+font-size: 1.3rem;
+line-height: 31px;
+/* or 107% */
+
+
+
+color: #123A74;
+}
+
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 25px;
+/* or 156% */
+
+text-align: center;
+
+color: #1B1E1D;
+  }
+
+  .topupsuccess{
+    background: #F46800;
+    border: none;
+    padding: .7rem;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 170px;
+    
+    border-radius:170px;
+  }

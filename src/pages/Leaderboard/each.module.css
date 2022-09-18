@@ -1,0 +1,67 @@
+.mine {
+  background: #c7d4e8;
+  color: #fff;
+  }
+
+
+  .points{
+font-family: "Poppins";
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #00BF13;
+  }
+
+  .name{
+font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: var(--humber-primary);
+  }
+
+  .cardCustome{
+  background: #FFFFFF;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.05)!important;
+border-radius: 10px!important;
+border:none!important;
+  }
+
+
+
+/* picture avatar  */
+
+.avatar_circle {
+  width: 65px;
+  height: 65px;
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  height: 85%;
+  background-color: var(--humber-primary);
+  text-align: center;
+ 
+  -webkit-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+.initials {
+    /* font-family: "Courier New", monospace; */
+    font-family: Poppins;
+    font-weight: bold;
+    color: var(--humber-dark);
+}
+
+
+.rank{
+font-size: 1rem;
+  font-weight: 800;
+  font-family: 'Poppins';
+  /* color:var(--humber-light) */
+}

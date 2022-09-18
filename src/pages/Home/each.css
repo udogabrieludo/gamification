@@ -1,0 +1,58 @@
+.okay  {
+    width: 260px;
+    margin: 10px auto;
+    padding: 25px 10px 10px 10px;
+    position: relative;
+}
+.okay::after {
+    content: '';
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: -6px;
+  width: calc(100% - 2px);
+  border-right: 1px solid #f2f1ed;
+}
+.okay:nth-child(4):after {
+  content: '';
+  display: none;
+position: absolute;
+top: 50px;
+bottom: 50px;
+left: -6px;
+width: calc(100% - 2px);
+border-right: 1px solid #000000;
+}
+.upperball {
+  position: absolute;
+  display: flex; 
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+  top: 0;
+  left: 40px; 
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #123A74;
+  font-size: 8px; 
+  color: white;
+}
+.upperball-one {
+  position: absolute;
+  display: flex; 
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+  top: -10px;
+  left: 92%;
+  border: 2px solid #FFFFFF;
+  right: auto; 
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #123A74;
+  font-size: 8px; 
+  color: white;
+  font-size: 7px;
+}

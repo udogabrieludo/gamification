@@ -1,0 +1,27 @@
+.bg_selected{
+  background: #0100306e;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.win_more{
+  animation:pulse 0.5s ease-in infinite;
+}
+.trivia_success{
+  background-color: #059228;
+  color: #fff;
+  border:none;
+}
+
+.trivia_failed{
+  background: red;
+  color: white;
+  border:none;
+}
+
+
+@keyframes pulse{
+  25%  {transform: scale(0.9);}
+  75%  {transform: scale(1.1);}
+}

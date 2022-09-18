@@ -1,0 +1,18 @@
+.eacher {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 22px;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 0 20px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+.eacher:hover {
+    background: #123873;
+    color: white;
+    border-radius: 4px;
+}
