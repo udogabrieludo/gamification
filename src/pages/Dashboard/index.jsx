@@ -3,8 +3,8 @@ import { useHistory } from "react-router-dom";
 import Stack from "../../components/Stack";
 import dashboard from "./dashboard.module.css";
 // import questionmark from '../../assets/gulder_assets/guess_logo.png'
-// import avataricon from '../../assets/gulder_assets/avatar.png'
-// import triviaicon from '../../assets/gulder_assets/trivia.png'
+import avataricon from '../../assets/gulder_assets/avatar.png'
+import triviaicon from '../../assets/gulder_assets/trivia.png'
 import avataricon from "../../assets/images/avatar.svg";
 import triviaicon from "../../assets/images/triviaicon1.png";
 import questionmark from "../../assets/images/guess-1.svg";
